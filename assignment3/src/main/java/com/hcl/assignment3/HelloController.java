@@ -15,6 +15,12 @@ public class HelloController {
     String helloAlice() {
         return "Hello Alice!";
     }
+    
+    @RequestMapping("/kha")
+    String helloKha() {
+        return "Hello Kha!";
+    }
+
 
    
 }
